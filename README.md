@@ -14,8 +14,13 @@ The study of computer algorithms that improve automatically through experience.
 
 # Classification
 
-+ [ogistic_regression](https://github.com/sammiee5311/Machine_Learning/blob/master/Machine%20Learning%20A-Z%20(Codes%20and%20Datasets)/Part%203%20-%20Classification/Section%2014%20-%20Logistic%20Regression/Python/logistic_regression.ipynb)
++ [Logistic regression](https://github.com/sammiee5311/Machine_Learning/blob/master/Machine%20Learning%20A-Z%20(Codes%20and%20Datasets)/Part%203%20-%20Classification/Section%2014%20-%20Logistic%20Regression/Python/logistic_regression.ipynb)
 
+# Practice
+
++ [Breast Cancer](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/breast_cancer/Logistic_Regression.ipynb)
++ [Height(Linear Regression)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/height/Linear_Regression.ipynb)
++ [Height(Support Vector Regression)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/height/SVR.ipynb)
 
 ### reference
 https://www.udemy.com/course/machinelearning/
