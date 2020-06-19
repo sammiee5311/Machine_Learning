@@ -23,5 +23,5 @@ The study of computer algorithms that improve automatically through experience.
 + [Height(Support Vector Regression)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/height/SVR.ipynb)
 
 ### reference
-https://www.udemy.com/course/machinelearning/
-https://www.superdatascience.com/pages/machine-learning
++ https://www.udemy.com/course/machinelearning/
++ https://www.superdatascience.com/pages/machine-learning
