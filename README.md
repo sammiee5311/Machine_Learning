@@ -24,3 +24,4 @@ The study of computer algorithms that improve automatically through experience.
 
 ### reference
 https://www.udemy.com/course/machinelearning/
+https://www.superdatascience.com/pages/machine-learning
