@@ -44,10 +44,6 @@ train_datagen = ImageDataGenerator(
 
 test_datagen = ImageDataGenerator(rescale=1./255)
 
-# train_datagen.fit(X_train)
-# test_datagen.fit(X_test)
-# test_datagen.fit(X_validation)
-
 y_train = to_categorical(y_train, n_classes)
 y_test = to_categorical(y_test, n_classes)
 y_validation = to_categorical(y_validation, n_classes)
