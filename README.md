@@ -48,6 +48,7 @@ Machine Learning A-Z (Codes and Datasets) is from https://www.udemy.com/course/m
 + [Height(Support Vector Regression)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/height/SVR.ipynb)
 + [Titanic(K-Nearest Neighbors)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/Titanic/K-Nearest%20Neighbors%20(K-NN).ipynb)
 + [IMDB(Natrual Language Process)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/IMDB/nlp_with_bert_for_sentiment_analysis.py)
++ [Digits Classification(Deep Learning)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/digits_classification/main.py)
 
 ### reference
 + https://www.udemy.com/course/machinelearning/
