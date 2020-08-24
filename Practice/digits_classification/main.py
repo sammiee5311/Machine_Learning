@@ -11,10 +11,10 @@ from keras.utils.np_utils import to_categorical
 
 images = []
 classes = []
-path = './myData'
-my_list = os.listdir(path)
-print('# of classes:', len(my_list))
-n_classes = len(my_list)
+path = 'path'
+images_list = os.listdir(path)
+print('# of classes:', len(images_list))
+n_classes = len(images_list)
 print('importing classes')
 for n in range(n_classes):
     pic_list = os.listdir(path + '/' + str(n))
@@ -48,12 +48,6 @@ y_train = to_categorical(y_train, n_classes)
 y_test = to_categorical(y_test, n_classes)
 y_validation = to_categorical(y_validation, n_classes)
 
-filters = 60
-filter_1 = (5, 5)
-filter_2 = (3, 3)
-pooling = (2, 2)
-node = 500
-
 model = models.Sequential()
 model.add(layers.Conv2D(60, (5,5), input_shape=(32, 32, 3), activation='relu'))
 model.add(layers.Conv2D(60, (5,5), activation='relu'))
@@ -63,7 +57,7 @@ model.add(layers.Conv2D(30, (3, 3), activation='relu'))
 model.add(layers.MaxPooling2D((2, 2)))
 model.add(layers.Dropout(0.5))
 model.add(layers.Flatten())
-model.add(layers.Dense(units=node, activation='relu'))
+model.add(layers.Dense(units=500, activation='relu'))
 model.add(layers.Dropout(0.5))
 model.add(layers.Dense(units=n_classes, activation='softmax'))
 model.compile(optimizer='adam',
@@ -103,7 +97,7 @@ validation_generator = test_datagen.flow(
 model.fit_generator(
     train_generator,
     epochs=20,
-    validation_data=validation_generator
+    validation_data=validation_generator,
+    shuffle=1,
+    callbacks=callbacks
 )
-
-model.save('my_model.h5')
