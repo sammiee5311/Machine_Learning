@@ -50,6 +50,7 @@ Machine Learning A-Z (Codes and Datasets) is from https://www.udemy.com/course/m
 + [IMDB(Natrual Language Process)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/IMDB/nlp_with_bert_for_sentiment_analysis.py)
 + [Digits Classification(Deep Learning)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/digits_classification/main.py)
 + [Traffic Classification(Deep Learning)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/traffic_classification/main.py)
++ [IMDB(RNN)](https://github.com/sammiee5311/Machine_Learning/blob/master/Practice/IMDB_RNN/imdb_RNN.ipynb)
 
 ### reference
 + https://www.udemy.com/course/machinelearning/
