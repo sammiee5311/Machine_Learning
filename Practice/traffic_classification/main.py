@@ -98,5 +98,6 @@ model.fit_generator(
     train_generator,
     epochs=20,
     validation_data=validation_generator,
-    callbacks=callbacks
+    callbacks=callbacks,
+    shuffle=1
 )
